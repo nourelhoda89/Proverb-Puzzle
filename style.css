@@ -1,0 +1,107 @@
+body {
+  margin-bottom:auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:auto;
+  color:white;
+  align-items: center;
+  background-color:black;
+  display: grid;
+  height: 75vh;
+  justify-content: center;
+}
+
+table {
+	
+	background-color:Black;
+	border:2px solid black;
+	
+}
+
+td {
+	border-radius: 7px;
+	border: 1px solid white;
+	padding: 0.5rem;
+	height: 15px;
+	width: 25px;
+	color:white;
+}
+h6{
+    margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+    color: white;
+    font-family:Icelend,Courier,Verdana;
+	font-size:20px;
+} 
+div{
+	text-align:center;
+    color: white;
+    font-family:Icelend,Courier,Verdana;
+	font-size:15px;
+} 
+
+button{
+  padding: 5px px;
+  background-image: radial-gradient( #b2b2ff, #0000FF );
+  color:white;
+  font-size:15px;
+  border: 1px solid #0000FF ;
+  border-radius: 12px;
+  padding: 5px;
+  margin-top:10px;
+  margin-left:15px;
+  
+}
+/*Note that the following code for bouncing text was obtained from the internet since the use of <marquee> tag is not recommended for html5!
+source="https://www.html.am/html-codes/marquees/css-marquee.cfm" */
+.top-banner {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+    background-image: radial-gradient( #b2b2ff, #0000FF );
+    color: white;
+    border: 1px solid #330f53; 
+    font-family:Icelend,Courier,Verdana;
+    font-size: 20px;
+   }
+   .top-banner h4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform:translateX(50%);
+    -webkit-transform:translateX(50%);	
+    transform:translateX(50%);
+    /* Apply animation to this element */	
+    -moz-animation: bouncing-text 15s linear infinite alternate;
+    -webkit-animation: bouncing-text 15s linear infinite alternate;
+    animation: bouncing-text 15s linear infinite alternate;
+   }
+   /* Move it (define the animation) */
+   @-moz-keyframes bouncing-text {
+    0%   { -moz-transform: translateX(50%); }
+    100% { -moz-transform: translateX(-50%); }
+   }
+   @-webkit-keyframes bouncing-text {
+    0%   { -webkit-transform: translateX(50%); }
+    100% { -webkit-transform: translateX(-50%); }
+   }
+   @keyframes bouncing-text {
+    0%   { 
+    -moz-transform: translateX(50%); /* Browser bug fix */
+    -webkit-transform: translateX(50%); /* Browser bug fix */
+    transform: translateX(50%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-50%); /* Browser bug fix */
+    -webkit-transform: translateX(-50%); /* Browser bug fix */
+    transform: translateX(-50%); 
+    }
+   }
+
+
